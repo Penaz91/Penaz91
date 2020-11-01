@@ -1,5 +1,31 @@
 ### Hi there 👋
 
+```py
+class Penaz(Person):
+    pronouns = "he/him"
+    main_programming_language = "Python"
+    secondary_programming_languages = [
+        "JavaScript",
+        "C++",
+    ]
+    markup_languages = [
+        "HTML",
+        "XML",
+        "Markdown",
+        "LaTeX"
+    ]
+    urls = {
+        "website": "https://penaz.it/",
+        "blog": "https://penazarea.altervista.org/"
+    }
+    
+    def get_energy_levels(self):
+        """
+        Don't even bother
+        """
+        raise RuntimeError("Cannot Represent Negative Infinity")
+```
+
 <!--
 **Penaz91/Penaz91** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
