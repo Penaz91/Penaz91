@@ -2,11 +2,13 @@
 
 ```py
 class Penaz(Person):
-    pronouns = "he/him"
+    pronouns = ["he", "him"]
     main_programming_language = "Python"
     secondary_programming_languages = [
         "JavaScript",
         "C++",
+        "Java",
+        "PHP"
     ]
     markup_languages = [
         "HTML",
@@ -14,6 +16,15 @@ class Penaz(Person):
         "Markdown",
         "LaTeX"
     ]
+    frameworks = [
+        "Django",
+        "Flask"
+    ]
+    misc = [
+        "Game Development",
+        "Celery",
+    ]
+    free_time = None
     urls = {
         "website": "https://penaz.it/",
         "blog": "https://penazarea.altervista.org/"
