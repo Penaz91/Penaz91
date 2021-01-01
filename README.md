@@ -1,6 +1,9 @@
 ### Hi there 👋
 
 ```py
+from decimal import Decimal
+
+
 class Penaz(Person):
     pronouns = ["he", "him"]
     main_programming_language = "Python"
@@ -8,19 +11,21 @@ class Penaz(Person):
         "JavaScript",
         "C++",
         "Java",
-        "PHP"
+        "PHP",
     ]
     markup_languages = [
         "HTML",
         "XML",
         "Markdown",
-        "LaTeX"
+        "LaTeX",
     ]
     frameworks = [
         "Django",
-        "Flask"
+        "Flask",
+        "Pelican",
     ]
     misc = [
+        "Web Scraping",
         "Game Development",
         "Celery",
     ]
@@ -32,9 +37,9 @@ class Penaz(Person):
     
     def get_energy_levels(self):
         """
-        Don't even bother
+        This is the most accurate approximation
         """
-        raise RuntimeError("Cannot Represent Negative Infinity")
+        return Decimal('-Infinity')
 ```
 
 <!--
