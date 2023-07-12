@@ -11,7 +11,7 @@ class Penaz(Person):
         "JavaScript",
         "C++",
         "Java",
-        "PHP",
+        "Lua",
     ]
     markup_languages = [
         "HTML",
@@ -21,8 +21,14 @@ class Penaz(Person):
     ]
     frameworks = [
         "Django",
+        "DjangoRestFramework",
         "Flask",
         "Pelican",
+    ]
+    db = [
+        "PostgreSQL",
+        "MySQL",
+        "MariaDB"
     ]
     misc = [
         "Web Scraping",
